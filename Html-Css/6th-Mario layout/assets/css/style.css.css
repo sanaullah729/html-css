@@ -1,0 +1,129 @@
+*{
+	margin: auto;
+}
+#header{
+	background-color: red;
+	height: 80px;
+	width: 100%;
+}
+#header button{
+	background-color: red;
+	color: white;
+	border: 5px solid white;
+	border-radius: 20px;
+	margin-left: 43%;
+	margin-top: 22px;
+	padding: 4px 15px 2px 15px;
+	font-size: 20px;
+}
+#image-section img{
+	height: 500px;
+	width: 100px;
+}
+#image{
+	margin-top: -358px;
+	position:absolute;
+	width:35%;
+	height:150px;
+	background-color:orange;
+}
+#IMAGE h2{
+	font-size: 40PX;
+	front-family:/*Trebuchet MS*;*/Arial; 
+	color: white;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+#image h1{
+	font-size: 60px;
+	font-family:/*Trebuchet MS*;*/Arial;
+	color: white;
+	padding-left: 20px;
+}
+#paragraph{
+	width: 100%;
+	height: 47px;
+	background-color: lightgray;
+	margin-top: -4px;
+	font-family: sans-serif;
+	color: gray;
+	padding: 12px 0px 0px 0px;
+	box-sizing: border-box;
+}
+.clearfix:after{
+	display: table;
+	content: '';
+	clear: both;
+}
+#paragraph h4{
+	float: left;
+	margin-left: 130px;
+}
+#color-change{
+	color: red;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+#testimonials{
+	height: 550%;
+	background-color: white;
+}
+#testimonials h2{
+	color: red;
+	margin-top: 50px;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+#testimonials img{
+	float: left;
+	height: 180px;
+	margin-left: 50px;
+	padding-top: 60px;
+}
+#testimonials p{
+	font-family: sans-serif;
+}
+#size-change{
+	padding-top: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#size-change2{
+	padding-top: 10px;
+	/*width: 30%;*/
+	/*letter-spacing: 2px;*/
+	line-height: 25px;
+	color: gray;
+}
+#end{
+	height: 200px;
+	background-color: lightgray;
+}
+#end h2{
+	text-align: center;
+	padding-top: 60px;	
+	font-family:sans-serif ;
+}
+#end p{
+	text-align: center;
+	padding-top: 10px;
+}
+#end button{
+	margin-left: 40%;
+	margin-top: 20px;
+	color: gray;
+	font-size: 18px;
+	border: 6px solid white;
+	background-color:white;
+	border-radius: 20px;
+}
+#footer{
+	background-color: red;
+	height: 60px;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	padding-top: 30px;
+}

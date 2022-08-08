@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<title>Green Design Layout</title>
+</head>
+<body>
+	<div id="header">
+		<div class="container clearfix" >
+			<div id="logo">
+				<img src="./assets/images/logo.png" alt="Logo" />
+			</div>
+			<div id="navigation">
+				<!-- unordered list -->
+				<ul class="clearfix">
+					<!-- list item -->
+					<li>Home</li>
+					<li>/</li>
+					<li>About</li>
+					<li>/</li>
+					<li>Portfolio</li>
+					<li>/</li>
+					<li>Clients</li>
+					<li>/</li>
+					<li>Contact</li>
+					<li>/</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="image-container">
+		<div class="container">
+			<h1>WE KNOW WEB DESIGN</h1>
+			<h3>With over 15 years experience you can be sure your <br> website is in safe hands</h3>
+			<button>VIEW OUR WORK</button>
+		</div>
+	</div>
+
+
+	<div id="main-section" class="container">
+		<div id="skills-container" class="clearfix">
+			<div class="skills-items">
+				<img src="./assets/images/cs-1.png" alt="CS 1">
+				<h3>Web Design</h3>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam magni quod reprehenderit quam cupiditate amet et nam sit quis voluptas eaque laudantium voluptatem dignissimos esse expedita temporibus voluptatibus, in culpa.</p>
+			</div>
+			<div class="skills-items">
+				<img src="./assets/images/cs-2.png" alt="CS 2">
+				<h3>E-Commerce</h3>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam magni quod reprehenderit quam cupiditate amet et nam sit quis voluptas eaque laudantium voluptatem dignissimos esse expedita temporibus voluptatibus, in culpa.</p>
+			</div>
+			<div class="skills-items">
+				<img src="./assets/images/cs-3.png" alt="CS 3">
+				<h3>Seo</h3>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam magni quod reprehenderit quam cupiditate amet et nam sit quis voluptas eaque laudantium voluptatem dignissimos esse expedita temporibus voluptatibus, in culpa.</p>
+			</div>
+		</div>
+
+		<div class="line-heading-section">
+			<hr />
+			<div>WHAT OUR CLIENTS SAY</div>
+		</div>
+
+		<div id="testimonials" class="clearfix">
+			<div>
+				<img src="./assets/images/head.png" alt="Head">
+			</div>
+			<div>
+				<img src="./assets/images/quote.png" alt="Quote">
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores excepturi error delectus dolorum fuga quod, eum magnam odit.</p>
+			</div>
+		</div>
+
+		<div class="line-heading-section">
+			<hr />
+			<div>DROP US A LINE</div>
+		</div>
+
+		<div id="location" class="clearfix">
+			<div id="location-first-item">
+				<div class="clearfix">
+					<img src="./assets/images/call.png" alt="Call">
+					<p>555 555 5555</p>
+				</div>
+
+				<div class="clearfix">
+					<img src="./assets/images/email.png" alt="Email">
+					<p>hello@whatever.com</p>
+				</div>
+
+				<div class="clearfix">
+					<img src="./assets/images/map-icon.png" alt="Map Icon">
+					<p>Leaf Studios Times Square NY</p>
+				</div>
+
+
+				<img src="./assets/images/logo-sprite.png" alt="Logos">
+			</div>
+			<div  id="location-second-item">
+				<img src="./assets/images/map.png" alt="Map">
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>

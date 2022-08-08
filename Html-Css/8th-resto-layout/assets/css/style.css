@@ -1,0 +1,35 @@
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+*{
+	margin: 0 auto;
+	font-family: 'trebuchet MS';
+	box-sizing: border-box;
+}
+#header{
+	background-color: white;
+}
+.nav ul{
+	display: flex;
+}
+.nav ul li{
+	list-style-type:none ;
+	margin-right: 24px;
+	display: flex;
+	color: black;
+}
+#sub-header{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	align-items: center;
+}
+#image-section{
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100px;
+	border-bottom: 4px solid red;
+	margin-top: 14px;
+}

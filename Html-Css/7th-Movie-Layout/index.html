@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Movie Layout On Flexbox</title>
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/css/lightbox.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+	<header>
+		<div id="sub-header">
+			<h1>THE MOVIE HOME</h1>
+			<ul>
+				<li>set back</li>
+				<li>/</li>
+				<li>relax</li>
+				<li>/</li>
+				<li>watch</li>
+			</ul>
+		</div>
+	</header>
+	<nav>
+		<div class="nav-items">Watch</div>
+		<div class="nav-items">Download</div>
+		<div class="nav-items">Gallery</div>
+	</nav>
+
+	<section id="main-section">
+		<div id="left-side">
+			<div id="movie-collection">
+				<div class="movie-items movie-half">
+					<img src="./assets/images/img_1.jpg" alt="Fight Club">
+					<div class="movie-heading">
+						<h3>Fight Club</h3>
+					</div>
+					<div class="movie-body">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nihil doloremque inventore magni itaque distinctio dolorem, error veritatis accusantium odio in tempore et laborum repellendus exercitationem impedit? Earum</p>
+					</div>
+				</div>
+
+				<div class="movie-items movie-half">
+					<img src="./assets/images/img_2.jpg" alt="Pirates">
+					<div class="movie-heading">
+						<h3>PIRATES</h3>
+					</div>
+					<div class="movie-body">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nihil doloremque inventore magni itaque distinctio dolorem, error veritatis accusantium odio in tempore et laborum repellendus exercitationem impedit? Earum</p>
+					</div>
+				</div>
+
+
+				<div class="movie-items movie-third">
+					<img src="./assets/images/img_3.jpg" alt="Pirates">
+					<div class="movie-heading">
+						<h3>THE GOOD THE BAAD & THE UGLY</h3>
+					</div>
+					<div class="movie-body">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nihil doloremque inventore magni itaque distinctio dolorem, error veritatis accusantium odio in tempore et laborum repellendus exercitationem impedit? Earum</p>
+					</div>
+				</div>
+
+				<div class="movie-items movie-third">
+					<img src="./assets/images/img_4.jpg" alt="Pirates">
+					<div class="movie-heading">
+						<h3>SHERLOCK HOLMES</h3>
+					</div>
+					<div class="movie-body">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nihil doloremque inventore magni itaque distinctio dolorem, error veritatis accusantium odio in tempore et laborum repellendus exercitationem impedit? Earum</p>
+					</div>
+				</div>
+
+				<div class="movie-items movie-third">
+					<img src="./assets/images/img_6.jpg" alt="Pirates">
+					<div class="movie-heading">
+						<h3>THE JOKER</h3>
+					</div>
+					<div class="movie-body">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nihil doloremque inventore magni itaque distinctio dolorem, error veritatis accusantium odio in tempore et laborum repellendus exercitationem impedit? Earum</p>
+					</div>
+				</div>
+
+				<div class="movie-items movie-full">
+					<img src="./assets/images/img_7.jpg" alt="Pirates">
+					<div class="movie-heading">
+						<h3>MISSION IMPOSSIBLE</h3>
+					</div>
+					<div class="movie-body">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt nihil doloremque inventore magni itaque distinctio dolorem, error veritatis accusantium odio in tempore et laborum repellendus exercitationem impedit? Earum</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="featured-movies">
+				<h3 class="feature-heading">Watch Today</h3>
+
+				<div class="feature-movies">
+					<div class="feature-item-first">
+						<img src="./assets/images/img_8.jpg" alt="Sport Movie 1">
+					</div>
+					<div  class="feature-item-second">
+						<div class="feature-sub-content">
+							<h4>BABY DRIVER</h4>
+							<p>2017   121min   action   7.78   8:30pm</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Illum excepturi</p>
+							<a href="#">Read More</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="feature-movies flex-direction-row-reverse">
+					<div class="feature-item-first">
+						<img src="./assets/images/img_9.jpg" alt="Sport Movie 1">
+					</div>
+					<div  class="feature-item-second">
+						<div class="feature-sub-content">
+							<h4>FIGHT CLUB</h4>
+							<p>2017   121min   action   7.78   8:30pm</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Illum excepturi</p>
+							<a href="#">Read More</a>
+						</div>
+					</div>
+				</div>
+
+				<h3 class="feature-heading">Download Now</h3>
+
+				<div id="download-container">
+					<div id="download-header">
+						<img src="./assets/images/img_11.png" alt="Download Image">
+					</div>
+					<div id="download-body">
+						<div id="download-body-first">
+							<p>Download</p>
+							<i class="fa fa-cloud-download-alt fa-2x"></i>
+						</div>
+						<div id="download-body-second">
+							<div id="genre-section">
+								<div id="genre-first">
+									<h3>Genre:</h3>
+								</div>
+								<div id="genre-second">
+									<p>adventure,romance,action,horror</p>
+								</div>
+							</div>
+							<div id="cast">
+								<div id="cast-item-1">
+									<h3>Cast :</h3>
+								</div>
+								<div id="cast-item-2">
+									<div class="cast-images">
+										<img src="./assets/images/img_11.jpg" alt="">
+									</div>
+
+									<div class="cast-images">
+										<img src="./assets/images/img_12.jpg" alt="">
+									</div>
+
+									<div class="cast-images">
+										<img src="./assets/images/img_13.jpg" alt="">
+									</div>
+
+									<div class="cast-images">
+										<img src="./assets/images/img_14.jpg" alt="">
+									</div>
+
+									<div class="cast-images">
+										<img src="./assets/images/img_15.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="download-body-third">
+							<h2>8.7</h2>
+							<p>( 1200 rating )</p>
+							<p>( 6 seasons )</p>
+						</div>
+					</div>
+				</div>
+
+				<div id="movie-section">
+					<h2>Movies Gallery</h2>
+
+					<div id="gallery-container">
+						<div class="gallery-images">
+							<a href="./assets/images/gallery_1.jpg" data-lightbox="image">
+								<img src="./assets/images/gallery_1.jpg" alt="Gallery 1">
+							</a>
+						</div>
+						<div class="gallery-images">
+							<a href="./assets/images/gallery_2.jpg" data-lightbox="image">
+								<img src="./assets/images/gallery_2.jpg" alt="Gallery 2">
+							</a>
+						</div>
+						<div class="gallery-images">
+							<a href="./assets/images/gallery_3.jpg" data-lightbox="image">
+								<img src="./assets/images/gallery_3.jpg" alt="Gallery 3">
+							</a>
+						</div>
+						<div class="gallery-images">
+							<a href="./assets/images/gallery_4.jpg" data-lightbox="image">
+								<img src="./assets/images/gallery_4.jpg" alt="Gallery 4">
+							</a>
+						</div>
+						<div class="gallery-images">
+							<a href="./assets/images/gallery_5.jpg" data-lightbox="image">
+								<img src="./assets/images/gallery_5.jpg" alt="Gallery 5">
+							</a>
+						</div>
+						<div class="gallery-images">
+							<a href="./assets/images/gallery_6.jpg" data-lightbox="image">
+								<img src="./assets/images/gallery_6.jpg" alt="Gallery 6">
+							</a>
+						</div>
+						<div class="gallery-images">
+							<a href="./assets/images/gallery_7.jpg" data-lightbox="image">
+								<img src="./assets/images/gallery_7.jpg" alt="Gallery 7">
+							</a>
+						</div>
+						<div class="gallery-images">
+							<a href="./assets/images/gallery_8.jpg" data-lightbox="image">
+								<img src="./assets/images/gallery_8.jpg" alt="Gallery 8">
+							</a>
+						</div>
+						<div class="gallery-images">
+							<a href="./assets/images/gallery_9.jpg" data-lightbox="image">
+								<img src="./assets/images/gallery_9.jpg" alt="Gallery 9">
+							</a>
+						</div>
+						<div class="gallery-images">
+							<a href="./assets/images/gallery_10.jpg" data-lightbox="image">
+								<img src="./assets/images/gallery_10.jpg" alt="Gallery 10">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<aside>
+			<div class="featured-items">
+				<h3>Top Rated Movies</h3>
+				<p>The Godfather</p>
+				<p>12 Angry Men</p>
+				<p>The Dark Knight</p>
+			</div>
+
+
+			<div class="featured-items">
+				<h3>Great Actors</h3>
+				<p>Chirs Hamsworth</p>
+				<p>Robert Downey JR</p>
+				<p>Tom Cruise</p>
+				<p>Dwayne Johnson</p>
+				<p>Vin Diesel</p>
+			</div>
+
+			<div class="featured-items">
+				<h3>Upcoming Movies</h3>
+				<p>Black Adam</p>
+				<p>Fast X</p>
+			</div>
+
+			<div class="featured-items">
+				<h3>Best Directors</h3>
+				<p>stanley kubrick</p>
+				<p>Alfred Hitchcock</p>
+				<p>Steven Spielberg</p>
+				<p>Martin Scorsese</p>
+				<p>Quentin Tarantino</p>
+			</div>
+
+			<div class="featured-items">
+				<h3>Categories</h3>
+				<p>Action</p>
+				<p>Drama</p>
+				<p>Horror</p>
+				<p>Romance</p>
+				<p>Adventure</p>
+			</div>
+
+			<div class="featured-items">
+				<h3>Top Ten This Week</h3>
+				<p>1 - City of Ghosts</p>
+				<p>2 - Alien: Covenant</p>
+				<p>3 - Super Dark Times</p>
+				<p>4 - The Square</p>
+				<p>5 - Atomic Blonde</p>
+			</div>
+		</aside>
+	</section>
+
+
+	<div id="footer">
+		<h3>©copyright from squadcodersdev</h3>
+	</div>
+
+	<script src="./assets/js/jquery.js"></script>
+	<script src="./assets/js/lightbox.min.js"></script>
+</body>
+</html>

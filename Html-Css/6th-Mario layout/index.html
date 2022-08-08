@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MARIO LAYOUT</title>
+</head>
+<style>
+
+*{
+	margin: auto;
+	padding: auto;
+	font-family: sans-serif;
+}
+
+.input1 {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		}
+
+input.inputfield {
+    border-radius: 50px;
+    height: 30px;
+    width: 250px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.anchortag {
+    text-decoration: none;
+    color: red;
+}
+
+.anchortag:hover {color: #2f7fcb;}
+
+{
+	margin: auto;
+}
+#header{
+	background-color: red;
+	height: 70px;
+	width: 100%;
+}
+#header button{
+	background-color: red;
+	color: white;
+	border: 5px solid white;
+	border-radius: 20px;
+	margin-left: 43%;
+	margin-top: 16px;
+	padding: 4px 15px 2px 15px;
+	font-size: 20px;
+}
+#image-section img{
+	height: 465px;
+	width: 100%;
+}
+#image{
+	margin-top: -375px;
+	position:absolute;
+	width:30%;
+	height:210px;
+	background-color:orange;
+}
+#image h2{
+	font-size: 43px;
+	/*front-family:'Trebuchet MS'Arial; */
+	color: white;
+	padding-left: 20px;
+	padding-top: 35px;
+}
+#image h1{
+	font-size: 60px;
+	/*front-family:'Trebuchet MS';Arial; */
+	color: white;
+	padding-left: 20px;
+    margin-top: 15px;
+
+}
+#paragraph{
+	width: 100%;
+	height: 70px;
+	background-color: lightgray;
+	margin-top: -20px;
+	font-family: sans-serif;
+	color: gray;
+	padding: 12px 0px 0px 0px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.clearfix:after{
+	display: table;
+	content: '';
+	clear: both;
+}
+#paragraph h4{
+	float: left;
+	margin-left: 130px;
+}
+#color-change{
+	color: red;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+#testimonials{
+	height: 550%;
+	background-color: white;
+	margin-bottom: 65px;
+}
+#testimonials h2{
+	color: red;
+	margin-top: 50px;
+	font-size: 30px;
+	font-family: sans-serif;
+	margin-bottom: 8px;
+}
+#testimonials img{
+	float: inherit;
+	height: 190px;
+	margin-left: 130px;
+	padding-top: 10px;
+}
+#testimonials p{
+	font-family: sans-serif;
+}
+#size-change2{
+	margin-bottom: 30px;
+}
+#size-change{
+	padding-top: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#size-change2{
+	padding-top: 10px;
+	/*letter-spacing: 2px;*/
+	line-height: 25px;
+	color: gray;
+}
+#end{
+	height: 200px;
+	background-color: lightgray;
+}
+#end h2{
+	text-align: center;
+	padding-top: 30px;	
+	font-family:sans-serif ;
+}
+#end p{
+	text-align: center;
+	padding-top: 23px;
+}
+#end button{
+	margin-left: 40%;
+	margin-top: 20px;
+	color: gray;
+	font-size: 18px;
+	border: 6px solid white;
+	background-color:white;
+	border-radius: 20px;
+}
+
+#footer{
+	width: 100%;
+    height: 60px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+#footer p{
+	padding-top: 22px;
+}
+</style>
+<body>
+	<div id="header">
+	<button>MarioClub</button>	
+	</div>
+	<div id="image-section">
+	<img src="./assets/images/banner.png" alt="Banner">
+	<div id="image">
+	<h2>Welcome to</h2>	
+	<h1>MarioClub</h1>
+	</div>
+</div>
+<div id="paragraph" .clearfix="">
+	<h4 id="color-change" class="anchortag">Join The Club</h4>
+	<h4><a class="anchortag" href="#">Latest News</a></h4>
+	<h4><a class="anchortag" href="#">New Games</a></h4>
+	<h4><a class="anchortag" href="#">Contacts</a></h4>
+</div>
+	<div id="testimonials">
+	<div class="container">
+	<h2>IT'S A ME,MARIO</h2>
+	<p id="size-change">Loream ipsum sit amet, consectetur adipisicing elit help of these topic & improve your skills of paragraph.</p><p id="size-change2">Need some example on students who are really exited to learn paragraph skills.Mario first appeared in the arcade game Donkey Kong as a carpenter named Jumpman.In Japan, he had the name "Mr. Video." Later, he was named "Mario," after Mario Segale, who was a lot like Mario. Mario Segale owned the land where Nintendo of America's office was built.Mario later appeared with his younger brother Luigi in an arcade game called Mario Bros. The game Super Mario Bros. was released at the same time as the Nintendo Entertainment System. Super Mario Bros. was a very well liked game, along with Super Mario Bros. 3 and Legend Of Zelda.</p>
+		<img src="./assets/images/thumb-1.png" alt="Thumb-1">
+		<img src="./assets/images/thumb-2.png" alt="Thumb-2">
+	</div>
+</div>
+  <div id="end">
+		<h2>join Today</h2>
+		<p>ipsus dolor sit amet consectetur adipisicing, elit.</p>
+		<div class="input1">
+	    <input class="inputfield" type="text" placeholder="Type Email &amp; Hit Enter">
+	 </div>
+	</div>
+
+	<div id="footer">
+	<p>Copyright 2022 Marioclub</p>	
+	</div>	
+</body>
+</html>
